@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eligibility Checker</title>
+</head>
+<body>
+    <script>
+        function checkEligibility(age) {
+            if (age >= 18) {
+                console.log("You are eligible to vote.");
+                if (age >= 35) {
+                    console.log("You are also eligible to run for president.");
+                } else {
+                    console.log("You are not eligible to run for president.");
+                }
+            } else {
+                console.log("You are not eligible to vote.");
+            }
+        }
+
+        // Example usage
+                const age = prompt("Enter your age:");
+        checkEligibility(parseInt(age));
+
+    </script>
+</body>
+</html>
