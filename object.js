@@ -3,7 +3,7 @@ const Age= 22;
 const myProfession="student";
 
 const aboutMe={
-    name:"biplov",
+    name:"ravi ",
     age:22,
     myProfession:["Students","majdoor"],
     hair : {
@@ -18,6 +18,7 @@ const aboutMe={
         }
     }
 };
+console.log (myName);
 console.log(aboutMe.name);
 console.log(aboutMe.age);
 console.log(aboutMe.hair.color);
